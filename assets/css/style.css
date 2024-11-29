@@ -2113,3 +2113,75 @@ body {
     padding: 10px;
   }
 }
+
+.social-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.social-list li {
+  position: relative;
+}
+
+.social-link {
+  text-decoration: none;
+  color: inherit;
+  font-size: 24px;
+  display: inline-block;
+}
+
+.tooltip {
+  position: absolute;
+  top: -30px; /* Atur jarak dari ikon */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333; /* Warna latar belakang */
+  color: #fff; /* Warna teks */
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  opacity: 0; /* Sembunyikan secara default */
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.social-link:hover .tooltip {
+  opacity: 1; /* Tampilkan teks */
+  transform: translateX(-50%) translateY(-5px); /* Tambahkan animasi kecil */
+}
+
+.header-top-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.header-top-link {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+
+.hover-text {
+  display: none; /* Sembunyikan teks hover secara default */
+  position: absolute;
+  top: 100%; /* Posisi di bawah teks utama */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f9f9f9; /* Warna latar belakang */
+  color: #333; /* Warna teks */
+  padding: 5px 10px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 0.9rem;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.header-top-link:hover .hover-text {
+  display: block; /* Tampilkan teks saat di-hover */
+}

@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>salut Bci Balikpapan</title>
+  <title>Salut Bci Balikpapan</title>
 
   <!-- 
     - favicon
@@ -43,30 +43,35 @@
       <div class="container">
 
         <ul class="header-top-list">
-
           <li>
-            <a href="mailto:>binacendekia.salutbci@gmail.com" class="header-top-link">
+            <a href="mailto:binacendekia.salutbci@gmail.com" class="header-top-link">
               <ion-icon name="mail-outline"></ion-icon>
-
               <span>binacendekia.salutbci@gmail.com</span>
+              <span class="hover-text">Klik untuk mengirim email</span>
             </a>
           </li>
-
           <li>
             <a href="tel:+6285796069179" class="header-top-link">
-              <ion-icon name="phone"></ion-icon>
-
+              <ion-icon name="logo-whatsapp"></ion-icon>
               <address>+62 857-9606-9179</address>
+              <span class="hover-text">Admin 1</span>
             </a>
           </li>
-
+          <li>
+            <a href="tel:+6281347053327" class="header-top-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+              <address>+62 813-4705-3327</address>
+              <span class="hover-text">Admin 2</span>
+            </a>
+          </li>
         </ul>
+        
 
         <div class="wrapper">
           <ul class="header-top-social-list">
 
             <li>
-              <a href="tel:+6285796069179" class="header-top-social-link">
+              <a href="#contact" class="header-top-social-link">
                 <ion-icon name="logo-whatsapp"></ion-icon>
               </a>
             </li>
@@ -138,7 +143,7 @@
         <div class="header-bottom-actions">
 
           <button class="header-bottom-actions-btn" aria-label="KOntak">
-            <a href="tel:+6285796069179">
+            <a href="#contact">
             <ion-icon name="logo-whatsapp"></ion-icon>
 
             <span>Kontak</span>
@@ -1055,169 +1060,130 @@
 
         <p class="section-subtitle">Sub Fakultas</p>
 
-        <div class="buttons">
-          <button class="btn" id="modal1-btn">FAKULTAS EKONOMI ( FE )</button>
-          <button class="btn" id="modal2-btn">FAKULTAS SAINS DAN TEKNOLOGI ( FST )</button>
-          <button class="btn" id="modal3-btn">PROGRAM PASCASARJANA ( PPS )</button>
-          <button class="btn" id="modal4-btn">FAKULTAS KEGURUAN DAN ILMU PENDIDIKAN ( FKIP ) FULL ONLINE</button>
-          <button class="btn" id="modal5-btn">FAKULTAS KEGURUAN DAN ILMU PENDIDIKAN ( FKIP ) NEW</button>
-          <button class="btn" id="modal6-btn">FAKULTAS HUKUM, ILMU SOSIAL, DAN ILMU POLITIK ( FHISIP ) NEW</button>
-        </div>
-      
-        <!-- Modal Templates -->
-        <div class="modal" id="modal1">
-          <div class="modal-content flip-in">
-            <span class="close-btn" data-modal="modal1">&times;</span>
-            <h2>FAKULTAS EKONOMI ( FE )</h2>
-            <div class="modal-body">
-              <p>List Program Studi Fakultas Yang Anda Pilih:</p>
-              <div class="notifications">
-                <p>PARIWISATA (S1) (B)</p>
-                <p>EKONOMI SYARIAH (S1) (B)</p>
-                <p>EKONOMI PEMBANGUNAN (S1) (A)<p>
-                <p>MANAJEMEN ( S1 ) (A)</p>
-                <p>AKUNTANSI ( S1 ) (A)</p>
-                <p>AKUNTANSI KEUANGAN PUBLIK ( S1 ) (B)</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <section class="faq" id="faq">
+          <div class="container">
+            <h2 class="section-title">Program Studi</h2>
+            <p class="section-subtitle">Find Favorite Program</p>
         
-        <!-- Repeat Modal Template for other buttons -->
-        <div class="modal" id="modal2">
-          <div class="modal-content flip-in">
-            <span class="close-btn" data-modal="modal2">&times;</span>
-            <h2>FAKULTAS SAINS DAN TEKNOLOGI ( FST )</h2>
-            <div class="modal-body">
-              <p>List Program Studi Fakultas Yang Anda Pilih:</p>
-              <div class="notifications">
-                <p>PERENCANAAN WILAYAH DAN KOTA (S1) (B)</p>
-                <p>SISTEM INFORMASI (S1) (B)</p>
-                <p>MATEMATIKA ( S1) (B)</p>
-                <p>STATISTIKA (S1) (B)</p>
-                <p>BIOLOGI (S1) (B)</p>
-                <p>AGRIBISNIS BIDANG MINAT PENYULUHAN DAN KOMUNIKASI PERTANIAN (S1) (B)</p>
-                <p>AGRIBISNIS BIDANG MINAT PENYULUHAN DAN KOMUNIKASI PETERNAKAN (S1) (B)</p>
-                <p>AGRIBISNIS BIDANG MINAT PENYULUHAN DAN KOMUNIKASI PERIKANAN (B)</p>
-                <p>TEKNOLOGI PANGAN (B)</p>
-                <p>PERENCANAAN WILAYAH DAN KOTA NEW (B)</p>
+            <div class="faq-container">
+              <div class="faq-item">
+                <button class="faq-question">
+                  FAKULTAS EKONOMI ( FE ) <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                  <p>
+                    <p>PARIWISATA (S1) (B)</p><br>
+                    <p>EKONOMI SYARIAH (S1) (B)</p><br>
+                    <p>EKONOMI PEMBANGUNAN (S1) (A)</p><br>
+                    <p>MANAJEMEN ( S1 ) (A)</p><br>
+                    <p>AKUNTANSI ( S1 ) (A)</p><br>
+                    <p>AKUNTANSI KEUANGAN PUBLIK ( S1 ) (B)</p>
+                  </p>
+                </div>
+              </div>
+        
+              <div class="faq-item">
+                <button class="faq-question">
+                  FAKULTAS SAINS DAN TEKNOLOGI ( FST )<span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                  <p>
+                    <p>PERENCANAAN WILAYAH DAN KOTA (S1) (B)</p><br>
+                    <p>SISTEM INFORMASI (S1) (B)</p><br>
+                    <p>MATEMATIKA ( S1) (B)</p><br>
+                    <p>STATISTIKA (S1) (B)</p><br>
+                    <p>BIOLOGI (S1) (B)</p><br>
+                    <p>AGRIBISNIS BIDANG MINAT PENYULUHAN DAN KOMUNIKASI PERTANIAN (S1) (B)</p><br>
+                    <p>AGRIBISNIS BIDANG MINAT PENYULUHAN DAN KOMUNIKASI PETERNAKAN (S1) (B)</p><br>
+                    <p>AGRIBISNIS BIDANG MINAT PENYULUHAN DAN KOMUNIKASI PERIKANAN (B)</p><br>
+                    <p>TEKNOLOGI PANGAN (B)</p><br>
+                    <p>PERENCANAAN WILAYAH DAN KOTA NEW (B)</p>
+                </p>
+                </div>
+              </div>
+        
+              <div class="faq-item">
+                <button class="faq-question">
+                  PROGRAM PASCASARJANA ( PPS ) <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                  <p>
+                    <p>MAGISTER ILMU ADMINISTRASI BIDANG MINAT ADMINISTRASI PUBLIK (S2) (B)</p><br>
+                    <p>MAGISTER MANAJEMEN (S2) (B)</p><br>
+                    <p>MAGISTER PENDIDIKAN BAHASA INGGRIS (S2) (B)</p><br>
+                    <p>MAGISTER PENDIDIKAN DASAR (S2) (A)</p><br>
+                    <p>MAGISTER PENDIDIKAN MATEMATIKA (S2) (B)</p><br>
+                    <p>MAGISTER STUDI LINGKUNGAN (S2) (B)</p>
+                  </p>
+                </div>
+              </div>
+  
+              <div class="faq-item">
+                <button class="faq-question">
+                  FAKULTAS KEGURUAN DAN ILMU PENDIDIKAN ( FKIP ) FULL ONLINE<span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                  <p>
+                    <p>Pendidikan Bahasa dan Sastra FULL ONLINE (B)</p><br>
+                    <p>Pendidikan Bahasa Inggris FULL ONLINE (B)</p><br>
+                    <p>PENDIDIKAN AGAMA ISLAM (Dalam Proses)</p><br>
+                    <p>Pendidikan Guru Sekolah Dasar (PGSD) (S1) FULL Online (B)</p><br>
+                    <p>Pendidikan Anak Usia Dini (PAUD) (S1) FULL Online (B)</p><br>
+                    <p>Pendidikan BIOLOGI FULL ONLINE (B)</p><br>
+                    <p>TEKNOLOGI PENDIDIKAN FULL ONLINE (C)</p><br>
+                    <p>Pendidikan EKONOMI FULL ONLINE (B)</p><br>
+                    <p>Pendidikan Pancasila dan Kewarganegaraan FULL ONLINE (B)</p><br>
+                    <p>Pendidikan MATEMATIKA FULL ONLINE (B)</p><br>
+                    <p>Pendidikan KIMIA FULL ONLINE (B)</p><br>
+                    <p>Pendidikan FISIKA FULL ONLINE (B)</p>
+                  </p>
+                </div>
+              </div>
+  
+              <div class="faq-item">
+                <button class="faq-question">
+                  FAKULTAS KEGURUAN DAN ILMU PENDIDIKAN ( FKIP ) NEW<span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                  <p>
+                    <p>Pendidikan Bahasa dan Sastra Indonesia (S1) (B)</p><br>
+                    <p>PENDIDIKAN AGAMA ISLAM NEW (Dalam Proses)</p><br>
+                    <p>Pendidikan Anak Usia Dini (PAUD) (S1) BI (B)</p><br>
+                    <p>Pendidikan Guru Sekolah Dasar (PGSD) (S1) BI (B)</p><br>
+                    <p>Pendidikan Anak Usia Dini (PAUD) (S1) (B)</p><br>
+                    <p>Teknologi Pendidikan (S1) (C)</p><br>
+                    <p>Pendidikan Ekonomi (S1) (B)</p><br>
+                    <p>Pendidikan Matematika (S1) (B)</p><br>
+                    <p>Pendidikan Kimia (S1) (B)</p><br>
+                    <p>Pendidikan Fisika (S1) (B)</p><br>
+                    <p>Pendidikan Biologi (B)</p><br>
+                    <p>Pendidikan Bahasa Inggris (S1) (B)</p>
+                  </p>
+                </div>
+              </div>
+  
+              <div class="faq-item">
+                <button class="faq-question">
+                  FAKULTAS HUKUM, ILMU SOSIAL, DAN ILMU POLITIK ( FHISIP ) NEW<span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                  <p>
+                    <p>ADMINISTRASI NEGARA (S1) (A)</p><br>
+                    <p>SASTRA INGGRIS BIDANG MINAT PENERJEMAH (S1) (B)</p><br>
+                    <p>ILMU HUKUM (S1) (A)</p><br>
+                    <p>SOSIOLOGI (S1) (A)</p><br>
+                    <p>KEARSIPAN (D-IV) (A)</p><br>
+                    <p>ILMU PERPUSTAKAAN (S1) (B)</p><br>
+                    <p>ILMU KOMUNIKASI (S1) (B)</p><br>
+                    <p>ILMU PEMERINTAHAN (S1) (B)</p><br>
+                    <p>PERPAJAKAN ( D-III ) & ( S-1 ) (A)</p><br>
+                    <p>ADMINISTR BISNIS ( S1 ) (A)</p>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      
-        <!-- Repeat for Modal 3, 4, 5, and 6 -->
-        <div class="modal" id="modal3">
-          <div class="modal-content flip-in">
-            <span class="close-btn" data-modal="modal3">&times;</span>
-            <h2>PROGRAM PASCASARJANA ( PPS )</h2>
-            <div class="modal-body">
-              <p>List Program Studi Fakultas Yang Anda Pilih:</p>
-              <div class="notifications">
-                <p>MAGISTER ILMU ADMINISTRASI BIDANG MINAT ADMINISTRASI PUBLIK (S2) (B)</p>
-                <p>MAGISTER MANAJEMEN (S2) (B)</p>
-                <p>MAGISTER PENDIDIKAN BAHASA INGGRIS (S2) (B)</p>
-                <p>MAGISTER PENDIDIKAN DASAR (S2) (A)</p>
-                <p>MAGISTER PENDIDIKAN MATEMATIKA (S2) (B)</p>
-                <p>MAGISTER STUDI LINGKUNGAN (S2) (B)</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      
-        <!-- modal 4 -->
-        <div class="modal" id="modal4">
-          <div class="modal-content flip-in">
-            <span class="close-btn" data-modal="modal3">&times;</span>
-            <h2>FAKULTAS KEGURUAN DAN ILMU PENDIDIKAN ( FKIP ) FULL ONLINE</h2>
-            <div class="modal-body">
-              <p>List Program Studi Fakultas Yang Anda Pilih:</p>
-              <div class="notifications">
-                <p>Pendidikan Bahasa dan Sastra FULL ONLINE (B)</p>
-                <p>Pendidikan Bahasa Inggris FULL ONLINE (B)</p>
-                <p>PENDIDIKAN AGAMA ISLAM (Dalam Proses)</p>
-                <p>Pendidikan Guru Sekolah Dasar (PGSD) (S1) FULL Online (B)</p>
-                <p>Pendidikan Anak Usia Dini (PAUD) (S1) FULL Online (B)</p>
-                <p>Pendidikan BIOLOGI FULL ONLINE (B)</p>
-                <p>TEKNOLOGI PENDIDIKAN FULL ONLINE (C)</p>
-                <p>Pendidikan EKONOMI FULL ONLINE (B)</p>
-                <p>Pendidikan Pancasila dan Kewarganegaraan FULL ONLINE (B)</p>
-                <p>Pendidikan MATEMATIKA FULL ONLINE (B)</p>
-                <p>Pendidikan KIMIA FULL ONLINE (B)</p>
-                <p>Pendidikan FISIKA FULL ONLINE (B)</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      
-        <!-- modal 5 -->
-        <div class="modal" id="modal5">
-          <div class="modal-content flip-in">
-            <span class="close-btn" data-modal="modal3">&times;</span>
-            <h2>FAKULTAS KEGURUAN DAN ILMU PENDIDIKAN ( FKIP ) NEW</h2>
-            <div class="modal-body">
-              <p>List Program Studi Fakultas Yang Anda Pilih:</p>
-              <div class="notifications">
-                <p>Pendidikan Bahasa dan Sastra Indonesia (S1) (B)</p>
-                <p>PENDIDIKAN AGAMA ISLAM NEW (Dalam Proses)</p>
-                <p>Pendidikan Anak Usia Dini (PAUD) (S1) BI (B)</p>
-                <p>Pendidikan Guru Sekolah Dasar (PGSD) (S1) BI (B)</p>
-                <p>Pendidikan Anak Usia Dini (PAUD) (S1) (B)</p>
-                <p>Teknologi Pendidikan (S1) (C)</p>
-                <p>Pendidikan Ekonomi (S1) (B)</p>
-                <p>Pendidikan Matematika (S1) (B)</p>
-                <p>Pendidikan Kimia (S1) (B)</p>
-                <p>Pendidikan Fisika (S1) (B)</p>
-                <p>Pendidikan Biologi (B)</p>
-                <p>Pendidikan Bahasa Inggris (S1) (B)</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      
-        <!-- modal 6 -->
-        <div class="modal" id="modal6">
-          <div class="modal-content flip-in">
-            <span class="close-btn" data-modal="modal3">&times;</span>
-            <h2>FAKULTAS HUKUM, ILMU SOSIAL, DAN ILMU POLITIK ( FHISIP ) NEW</h2>
-            <div class="modal-body">
-              <p>List Program Studi Fakultas Yang Anda Pilih:</p>
-              <div class="notifications">
-                <p>ADMINISTRASI NEGARA (S1) (A)</p>
-                <p>SASTRA INGGRIS BIDANG MINAT PENERJEMAH (S1) (B)</p>
-                <p>ILMU HUKUM (S1) (A)</p>
-                <p>SOSIOLOGI (S1) (A)</p>
-                <p>KEARSIPAN (D-IV) (A)</p>
-                <p>ILMU PERPUSTAKAAN (S1) (B)</p>
-                <p>ILMU KOMUNIKASI (S1) (B)</p>
-                <p>ILMU PEMERINTAHAN (S1) (B)</p>
-                <p>PERPAJAKAN ( D-III ) & ( S-1 ) (A)</p>
-                <p>ADMINISTR BISNIS ( S1 ) (A)</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal" id="modal6">
-          <div class="modal-content flip-in">
-            <span class="close-btn" data-modal="modal3">&times;</span>
-            <h2>FAKULTAS HUKUM, ILMU SOSIAL, DAN ILMU POLITIK ( FHISIP ) NEW</h2>
-            <div class="modal-body">
-              <p>List Program Studi Fakultas Yang Anda Pilih:</p>
-              <div class="notifications">
-                <p>ADMINISTRASI NEGARA (S1) (A)</p>
-                <p>SASTRA INGGRIS BIDANG MINAT PENERJEMAH (S1) (B)</p>
-                <p>ILMU HUKUM (S1) (A)</p>
-                <p>SOSIOLOGI (S1) (A)</p>
-                <p>KEARSIPAN (D-IV) (A)</p>
-                <p>ILMU PERPUSTAKAAN (S1) (B)</p>
-                <p>ILMU KOMUNIKASI (S1) (B)</p>
-                <p>ILMU PEMERINTAHAN (S1) (B)</p>
-                <p>PERPAJAKAN ( D-III ) & ( S-1 ) (A)</p>
-                <p>ADMINISTR BISNIS ( S1 ) (A)</p>
-              </div>
-            </div>
-          </div>
-        </div>
+        </section>
 
 
       <!-- 
@@ -1359,19 +1325,28 @@
             <li>
               <a href="https://www.instagram.com/salutbci_balikpapan/" class="social-link" target="_blank">
                 <ion-icon name="logo-instagram"></ion-icon>
+                <span class="tooltip">Instagram</span>
               </a>
             </li>
             <li>
               <a href="tel:+6285796069179" class="social-link" target="_blank">
                 <ion-icon name="logo-whatsapp"></ion-icon>
+                <span class="tooltip">WhatsApp 1</span>
+              </a>
+            </li>
+            <li>
+              <a href="tel:+6281347053327" class="social-link" target="_blank">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+                <span class="tooltip">WhatsApp 2</span>
               </a>
             </li>
             <li>
               <a href="https://www.youtube.com/@salutamanah354Bpn" class="social-link" target="_blank">
                 <ion-icon name="logo-youtube"></ion-icon>
+                <span class="tooltip">YouTube</span>
               </a>
             </li>
-          </ul>
+          </ul>          
         </div>
         <div class="footer-link-box">
           <ul class="footer-list">
